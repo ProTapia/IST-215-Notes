@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-01-19T10:11:07.503Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.117 Safari/537.36" etag="999_bh9y7i94xzl3Op4E" version="12.5.5" type="github">
+<mxfile host="www.draw.io" modified="2020-01-19T10:16:42.876Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.117 Safari/537.36" etag="minXx0U9zjL1uw6MQsAg" version="12.5.5" type="github">
   <diagram id="IJlwkW0IKvStU0IK6DOn" name="Page-1">
     <mxGraphModel dx="1422" dy="745" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -51,10 +51,10 @@
             <mxPoint x="-30" y="550" as="sourcePoint"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="t6SEZ7RhCC823az2yK95-20" value="Hash function" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];strokeColor=#000000;fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;container=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="290" y="290" width="115" height="20" as="geometry"/>
+        <mxCell id="t6SEZ7RhCC823az2yK95-20" value="Hash function&lt;br&gt;(MD5 or SHA-1, SHA-2, SHA-3)" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];strokeColor=#000000;fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;container=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="260" y="285" width="260" height="40" as="geometry"/>
         </mxCell>
-        <mxCell id="t6SEZ7RhCC823az2yK95-21" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;fontSize=16;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" target="t6SEZ7RhCC823az2yK95-20" parent="1" source="t6SEZ7RhCC823az2yK95-4">
+        <mxCell id="t6SEZ7RhCC823az2yK95-21" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;fontSize=16;exitX=0;exitY=0;exitDx=0;exitDy=0;" edge="1" target="t6SEZ7RhCC823az2yK95-20" parent="1" source="t6SEZ7RhCC823az2yK95-4">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-30" y="550" as="sourcePoint"/>
           </mxGeometry>
@@ -136,8 +136,8 @@
         <mxCell id="t6SEZ7RhCC823az2yK95-47" value="h" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=30;" vertex="1" parent="1">
           <mxGeometry x="925" y="400" width="30" height="40" as="geometry"/>
         </mxCell>
-        <mxCell id="t6SEZ7RhCC823az2yK95-53" value="Same hash value" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=16;fontColor=#FF3333;" vertex="1" parent="1">
-          <mxGeometry x="730" y="480" width="140" height="20" as="geometry"/>
+        <mxCell id="t6SEZ7RhCC823az2yK95-53" value="Same hash value&lt;br&gt;(Bad for data integrity)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=16;fontColor=#FF3333;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="705" y="490" width="190" height="40" as="geometry"/>
         </mxCell>
         <mxCell id="t6SEZ7RhCC823az2yK95-57" value="" style="endArrow=classic;startArrow=classic;html=1;fontSize=16;fontColor=#FF3333;exitX=1.1;exitY=1.05;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;" edge="1" parent="1" source="t6SEZ7RhCC823az2yK95-42" target="t6SEZ7RhCC823az2yK95-47">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
