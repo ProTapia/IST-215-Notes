@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-01-19T08:40:15.991Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.117 Safari/537.36" etag="6pgrMaf1przm9P84pRDr" version="12.5.5" type="github">
+<mxfile host="www.draw.io" modified="2020-01-19T08:41:23.861Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.117 Safari/537.36" etag="UAqOIbRVttm_bpcMyAHL" version="12.5.5" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1422" dy="745" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -68,11 +68,23 @@
         <mxCell id="k1qJhE6l6SHrSpUFkEoJ-0" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;Notation:&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;Secret Key: K&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;Plaintext: M or P&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;Encryption: E&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;Decryption: D&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="40" y="40" width="110" height="110" as="geometry"/>
         </mxCell>
-        <mxCell id="k1qJhE6l6SHrSpUFkEoJ-3" value="D(C,K) = P" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="850" y="160" width="70" height="20" as="geometry"/>
-        </mxCell>
         <mxCell id="k1qJhE6l6SHrSpUFkEoJ-4" value="&lt;span style=&quot;white-space: nowrap&quot;&gt;E(P,K) = C&lt;/span&gt;" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];strokeColor=#000000;fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;container=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="434.5" y="160" width="90" height="20" as="geometry"/>
+          <mxGeometry x="434.5" y="150" width="90" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="k1qJhE6l6SHrSpUFkEoJ-6" value="&lt;span style=&quot;white-space: nowrap&quot;&gt;D(C,K) = P&lt;/span&gt;" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];strokeColor=#000000;fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;container=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="830" y="150" width="90" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="k1qJhE6l6SHrSpUFkEoJ-8" value="" style="endArrow=none;dashed=1;html=1;entryX=0.517;entryY=1.2;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="k1qJhE6l6SHrSpUFkEoJ-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="481" y="230" as="sourcePoint"/>
+            <mxPoint x="60" y="440" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k1qJhE6l6SHrSpUFkEoJ-9" value="" style="endArrow=none;dashed=1;html=1;entryX=0.533;entryY=1.15;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="k1qJhE6l6SHrSpUFkEoJ-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="878" y="230" as="sourcePoint"/>
+            <mxPoint x="70" y="450" as="targetPoint"/>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
