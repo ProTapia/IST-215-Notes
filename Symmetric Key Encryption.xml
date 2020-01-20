@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-01-19T09:00:51.058Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.117 Safari/537.36" etag="UxLef4ESTcqzTRcxMgwP" version="12.5.5" type="github">
+<mxfile host="www.draw.io" modified="2020-01-20T06:11:18.097Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.117 Safari/537.36" etag="xm0kxUApyzZOmWiuc2JW" version="12.5.5" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1422" dy="745" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -86,13 +86,22 @@
             <mxPoint x="70" y="450" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="6UP2bLcDIbc3-s8CvPEj-0" value="Alice and Bob previously agreed&lt;br&gt;upon using this shared key&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="780" y="360" width="190" height="30" as="geometry"/>
+        <mxCell id="6UP2bLcDIbc3-s8CvPEj-0" value="Alice and Bob previously agreed&lt;br style=&quot;font-size: 16px;&quot;&gt;upon using this shared key&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=16;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="850" y="355" width="240" height="40" as="geometry"/>
         </mxCell>
-        <mxCell id="6UP2bLcDIbc3-s8CvPEj-1" value="" style="endArrow=none;dashed=1;html=1;entryX=0;entryY=0.633;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Y5hTdsx8O-YlXAFuEdbg-0" target="6UP2bLcDIbc3-s8CvPEj-0">
+        <mxCell id="6UP2bLcDIbc3-s8CvPEj-1" value="" style="endArrow=none;dashed=1;html=1;entryX=0;entryY=0.633;entryDx=0;entryDy=0;entryPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Y5hTdsx8O-YlXAFuEdbg-0" target="6UP2bLcDIbc3-s8CvPEj-0" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="10" y="500" as="sourcePoint"/>
             <mxPoint x="60" y="450" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pKBTffPLeuahdgRIDqPt-0" value="Symmetric Key Encryption ensures &lt;b&gt;confidentiality &lt;/b&gt;and &lt;b&gt;Integrity&lt;/b&gt;&lt;br&gt;since&amp;nbsp;only Alice and Bob have access to the shared key.&lt;br&gt;MAC is another tool to ensure integrity." style="text;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;html=1;fontSize=16;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="14" y="480" width="480" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="pKBTffPLeuahdgRIDqPt-4" value="" style="endArrow=none;dashed=1;html=1;fontSize=16;entryX=0.71;entryY=-0.05;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Y5hTdsx8O-YlXAFuEdbg-0" target="pKBTffPLeuahdgRIDqPt-0">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="10" y="550" as="sourcePoint"/>
+            <mxPoint x="60" y="500" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
       </root>
