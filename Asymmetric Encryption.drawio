@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-01-25T06:14:23.551Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.117 Safari/537.36" etag="T5-2dxmD4y2OiETJmEio" version="12.5.6" type="github">
+<mxfile host="www.draw.io" modified="2020-01-25T06:30:48.821Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.117 Safari/537.36" etag="FgFy6YoPgQ2eoJOq24-8" version="12.5.6" type="github">
   <diagram id="khd9lnCYYnj1bPslRRlo" name="Page-1">
     <mxGraphModel dx="1422" dy="745" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -6,6 +6,24 @@
         <mxCell id="1" parent="0"/>
         <mxCell id="NfAX3kgdvOGdTsWDPBUL-1" value="Asymmetric Key Encryption" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=30;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="374" y="10" width="420" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="NfAX3kgdvOGdTsWDPBUL-2" value="Alice" style="shape=umlActor;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;html=1;outlineConnect=0;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="130" y="200" width="30" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="NfAX3kgdvOGdTsWDPBUL-4" value="Bob" style="shape=umlActor;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;html=1;outlineConnect=0;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="200" width="30" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="NfAX3kgdvOGdTsWDPBUL-12" value="Alice&#39;s&lt;br style=&quot;font-size: 16px;&quot;&gt;Private Key" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.security.key_permissions;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="132.5" y="320" width="25" height="53" as="geometry"/>
+        </mxCell>
+        <mxCell id="NfAX3kgdvOGdTsWDPBUL-13" value="Alice&#39;s&lt;br style=&quot;font-size: 16px;&quot;&gt;Public Key" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.security.key_permissions;fillColor=#CCCBCB;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="240" y="320" width="25" height="53" as="geometry"/>
+        </mxCell>
+        <mxCell id="NfAX3kgdvOGdTsWDPBUL-16" value="Bob&#39;s&lt;br style=&quot;font-size: 16px&quot;&gt;Private Key" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.security.key_permissions;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1002.5" y="320" width="25" height="53" as="geometry"/>
+        </mxCell>
+        <mxCell id="NfAX3kgdvOGdTsWDPBUL-17" value="Bobs&#39;s&lt;br style=&quot;font-size: 16px&quot;&gt;Public Key" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.security.key_permissions;fillColor=#CCCBCB;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="890" y="320" width="25" height="53" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
