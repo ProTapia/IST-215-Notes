@@ -1,6 +1,6 @@
-<mxfile host="www.draw.io" modified="2020-01-25T06:30:48.821Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.117 Safari/537.36" etag="FgFy6YoPgQ2eoJOq24-8" version="12.5.6" type="github">
+<mxfile host="www.draw.io" modified="2020-01-25T07:35:47.926Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.117 Safari/537.36" etag="UjVluYsGTPURNIAbVK5s" version="12.5.6" type="github">
   <diagram id="khd9lnCYYnj1bPslRRlo" name="Page-1">
-    <mxGraphModel dx="1422" dy="745" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0"/>
         <mxCell id="1" parent="0"/>
@@ -8,22 +8,83 @@
           <mxGeometry x="374" y="10" width="420" height="40" as="geometry"/>
         </mxCell>
         <mxCell id="NfAX3kgdvOGdTsWDPBUL-2" value="Alice" style="shape=umlActor;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;html=1;outlineConnect=0;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="130" y="200" width="30" height="60" as="geometry"/>
+          <mxGeometry x="241.25" y="240" width="30" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="NfAX3kgdvOGdTsWDPBUL-4" value="Bob" style="shape=umlActor;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;html=1;outlineConnect=0;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="1000" y="200" width="30" height="60" as="geometry"/>
+          <mxGeometry x="1000" y="240" width="30" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="NfAX3kgdvOGdTsWDPBUL-12" value="Alice&#39;s&lt;br style=&quot;font-size: 16px;&quot;&gt;Private Key" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.security.key_permissions;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="132.5" y="320" width="25" height="53" as="geometry"/>
+          <mxGeometry x="150" y="310" width="25" height="53" as="geometry"/>
         </mxCell>
         <mxCell id="NfAX3kgdvOGdTsWDPBUL-13" value="Alice&#39;s&lt;br style=&quot;font-size: 16px;&quot;&gt;Public Key" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.security.key_permissions;fillColor=#CCCBCB;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="240" y="320" width="25" height="53" as="geometry"/>
+          <mxGeometry x="337.5" y="310" width="25" height="53" as="geometry"/>
         </mxCell>
         <mxCell id="NfAX3kgdvOGdTsWDPBUL-16" value="Bob&#39;s&lt;br style=&quot;font-size: 16px&quot;&gt;Private Key" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.security.key_permissions;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="1002.5" y="320" width="25" height="53" as="geometry"/>
+          <mxGeometry x="1096.25" y="320" width="25" height="53" as="geometry"/>
+        </mxCell>
+        <mxCell id="NfAX3kgdvOGdTsWDPBUL-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;startArrow=classic;startFill=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1130" y="510" as="sourcePoint"/>
+            <mxPoint x="480" y="510" as="targetPoint"/>
+            <Array as="points">
+              <mxPoint x="1130" y="660"/>
+              <mxPoint x="480" y="660"/>
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="NfAX3kgdvOGdTsWDPBUL-17" value="Bobs&#39;s&lt;br style=&quot;font-size: 16px&quot;&gt;Public Key" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.security.key_permissions;fillColor=#CCCBCB;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="890" y="320" width="25" height="53" as="geometry"/>
+          <mxGeometry x="908.75" y="320" width="25" height="53" as="geometry"/>
+        </mxCell>
+        <mxCell id="NfAX3kgdvOGdTsWDPBUL-25" value="" style="endArrow=classic;startArrow=classic;html=1;fontSize=16;dashed=1;" edge="1" parent="1" source="NfAX3kgdvOGdTsWDPBUL-12" target="NfAX3kgdvOGdTsWDPBUL-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="231.25" y="370" as="sourcePoint"/>
+            <mxPoint x="331.25" y="320" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NfAX3kgdvOGdTsWDPBUL-26" value="" style="endArrow=none;dashed=1;html=1;fontSize=16;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="251" y="458" as="sourcePoint"/>
+            <mxPoint x="251.25" y="340" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NfAX3kgdvOGdTsWDPBUL-27" value="One key decrypts what the &lt;br&gt;other encrypted and viceversa." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="141.25" y="460" width="230" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="NfAX3kgdvOGdTsWDPBUL-28" value="Must be kept secret.&lt;br&gt;Cannot be shared." style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];strokeColor=#000000;fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;container=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry y="230" width="180" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="NfAX3kgdvOGdTsWDPBUL-32" value="" style="endArrow=none;html=1;fontSize=16;entryX=0.369;entryY=1.05;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="1" target="NfAX3kgdvOGdTsWDPBUL-28">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="140" y="320" as="sourcePoint"/>
+            <mxPoint x="60" y="600" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NfAX3kgdvOGdTsWDPBUL-34" value="" style="endArrow=classic;html=1;fontSize=16;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="371.25" y="330" as="sourcePoint"/>
+            <mxPoint x="510" y="310" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NfAX3kgdvOGdTsWDPBUL-35" value="" style="endArrow=classic;html=1;fontSize=16;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="371.25" y="320" as="sourcePoint"/>
+            <mxPoint x="480" y="260" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NfAX3kgdvOGdTsWDPBUL-36" value="" style="endArrow=classic;html=1;fontSize=16;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="371.25" y="350" as="sourcePoint"/>
+            <mxPoint x="490" y="390" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NfAX3kgdvOGdTsWDPBUL-37" value="Can be shared.&lt;br&gt;Anyone can have access." style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];strokeColor=#000000;fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;container=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="300" y="150" width="210" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="NfAX3kgdvOGdTsWDPBUL-38" value="" style="endArrow=none;dashed=1;html=1;fontSize=16;entryX=0.476;entryY=1.075;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.9;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="NfAX3kgdvOGdTsWDPBUL-13" target="NfAX3kgdvOGdTsWDPBUL-37">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="10" y="740" as="sourcePoint"/>
+            <mxPoint x="60" y="690" as="targetPoint"/>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
