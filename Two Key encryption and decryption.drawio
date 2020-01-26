@@ -1,11 +1,11 @@
-<mxfile host="www.draw.io" modified="2020-01-26T02:59:06.116Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="LJ4L2lMKft09aXOotWyq" version="12.5.8" type="github">
+<mxfile host="www.draw.io" modified="2020-01-26T04:13:42.623Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="Kq2ySqifESo8LT57MdyR" version="12.5.8" type="github">
   <diagram id="Ivaq9Wk9pbHShbpB38O0" name="Page-1">
-    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="745" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0"/>
         <mxCell id="1" parent="0"/>
-        <mxCell id="38Jvs0pOIjxVE0D0Ky-h-1" value="Encrypting a message &lt;br&gt;using &lt;u&gt;Alice&#39;s public key&lt;/u&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=30;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="10" y="10" width="350" height="80" as="geometry"/>
+        <mxCell id="38Jvs0pOIjxVE0D0Ky-h-1" value="Alice encrypting a message&lt;br&gt;using &lt;u&gt;Alice&#39;s public key&lt;/u&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=30;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="5" y="10" width="410" height="80" as="geometry"/>
         </mxCell>
         <mxCell id="38Jvs0pOIjxVE0D0Ky-h-3" value="Alice" style="shape=umlActor;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;html=1;outlineConnect=0;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="130" y="176.5" width="30" height="60" as="geometry"/>
@@ -43,8 +43,8 @@
             <mxPoint x="1050" y="208" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="38Jvs0pOIjxVE0D0Ky-h-18" value="Since it was encrypted with a public key the&lt;br&gt;message requires a private key to be decrypted" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="387.5" y="330" width="350" height="40" as="geometry"/>
+        <mxCell id="38Jvs0pOIjxVE0D0Ky-h-18" value="Since it was encrypted with a public key the&lt;br&gt;ciphertext requires a private key to be decrypted" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="382.5" y="330" width="360" height="40" as="geometry"/>
         </mxCell>
         <mxCell id="38Jvs0pOIjxVE0D0Ky-h-19" value="Bob doesn&#39;t have access to Alice&#39;s private key and cannot decrypt the ciphertext." style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];strokeColor=#000000;fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;container=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="920" y="110" width="219" height="20" as="geometry"/>
@@ -87,7 +87,7 @@
             <mxPoint x="1062.5" y="698" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="38Jvs0pOIjxVE0D0Ky-h-30" value="Since it was encrypted with a private key the&lt;br&gt;message requires a public key to be decrypted" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=16;" parent="1" vertex="1">
+        <mxCell id="38Jvs0pOIjxVE0D0Ky-h-30" value="Since it was encrypted with a private key the&lt;br&gt;ciphertext requires a public key to be decrypted" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="391" y="780" width="350" height="40" as="geometry"/>
         </mxCell>
         <mxCell id="38Jvs0pOIjxVE0D0Ky-h-31" value="" style="endArrow=none;dashed=1;html=1;fontSize=16;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="38Jvs0pOIjxVE0D0Ky-h-30" target="38Jvs0pOIjxVE0D0Ky-h-26" edge="1">
@@ -102,8 +102,8 @@
             <mxPoint x="172.5" y="700" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="38Jvs0pOIjxVE0D0Ky-h-33" value="Encrypting a message &lt;br&gt;using &lt;u&gt;Alice&#39;s private key&lt;/u&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=30;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="5" y="430" width="360" height="80" as="geometry"/>
+        <mxCell id="38Jvs0pOIjxVE0D0Ky-h-33" value="Alice encrypting a message&lt;br&gt;using &lt;u&gt;Alice&#39;s private key&lt;/u&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=30;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="5" y="430" width="410" height="80" as="geometry"/>
         </mxCell>
         <mxCell id="38Jvs0pOIjxVE0D0Ky-h-34" value="Hacker" style="shape=umlActor;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;html=1;outlineConnect=0;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="680" y="543" width="30" height="60" as="geometry"/>
@@ -132,8 +132,8 @@
         <mxCell id="38Jvs0pOIjxVE0D0Ky-h-39" value="{[M]&lt;sub&gt;Alice&lt;/sub&gt;}&lt;sub&gt;Alice&lt;/sub&gt; = M" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="1007.5" y="750" width="140" height="30" as="geometry"/>
         </mxCell>
-        <mxCell id="38Jvs0pOIjxVE0D0Ky-h-40" value="Because ANYONE can have access to the public key. Any person who intersects the message can decrypt it." style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];strokeColor=#000000;fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;container=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="790" y="480" width="280" height="20" as="geometry"/>
+        <mxCell id="38Jvs0pOIjxVE0D0Ky-h-40" value="Because ANYONE can have access to the public key. Any person who intersects the ciphertext can decrypt it." style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];strokeColor=#000000;fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;container=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="800" y="471" width="275" height="20" as="geometry"/>
         </mxCell>
         <mxCell id="38Jvs0pOIjxVE0D0Ky-h-41" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;strokeColor=#080808;fontSize=16;exitX=1.16;exitY=0.264;exitDx=0;exitDy=0;exitPerimeter=0;dashed=1;" parent="1" source="38Jvs0pOIjxVE0D0Ky-h-25" target="38Jvs0pOIjxVE0D0Ky-h-40" edge="1">
           <mxGeometry relative="1" as="geometry">
