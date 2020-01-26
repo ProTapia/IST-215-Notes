@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-01-26T02:58:33.135Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="fnaxfvn9iTfzIUvmV-K-" version="12.5.8" type="github">
+<mxfile host="www.draw.io" modified="2020-01-26T03:58:56.410Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="BE7wMRdpaOrPa7I3poVM" version="12.5.8" type="github">
   <diagram id="Ivaq9Wk9pbHShbpB38O0" name="Page-1">
     <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -8,140 +8,131 @@
           <mxGeometry x="15" y="10" width="340" height="80" as="geometry"/>
         </mxCell>
         <mxCell id="38Jvs0pOIjxVE0D0Ky-h-3" value="Alice" style="shape=umlActor;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;html=1;outlineConnect=0;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="130" y="176.5" width="30" height="60" as="geometry"/>
+          <mxGeometry x="1460" y="336.5" width="30" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="38Jvs0pOIjxVE0D0Ky-h-4" value="Bob" style="shape=umlActor;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;html=1;outlineConnect=0;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="1050" y="176.5" width="30" height="60" as="geometry"/>
+          <mxGeometry x="2380" y="336.5" width="30" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="38Jvs0pOIjxVE0D0Ky-h-5" value="Alice&#39;s&lt;br&gt;Private Key" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.security.key_permissions;fillColor=#DA4026;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="30" y="180" width="25" height="53" as="geometry"/>
+          <mxGeometry x="1360" y="340" width="25" height="53" as="geometry"/>
         </mxCell>
         <mxCell id="38Jvs0pOIjxVE0D0Ky-h-6" value="Alice&#39;s&lt;br&gt;Public Key" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.security.key_permissions;fillColor=#7FBA42;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="550" y="70" width="25" height="53" as="geometry"/>
+          <mxGeometry x="1880" y="230" width="25" height="53" as="geometry"/>
         </mxCell>
         <mxCell id="38Jvs0pOIjxVE0D0Ky-h-10" value="" style="line;strokeWidth=2;html=1;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="2.5" y="408" width="1157.5" height="10" as="geometry"/>
         </mxCell>
         <mxCell id="38Jvs0pOIjxVE0D0Ky-h-13" value="{M}&lt;sub&gt;Alice&lt;/sub&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="502.5" y="190" width="120" height="60" as="geometry"/>
+          <mxGeometry x="1832.5" y="350" width="120" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="38Jvs0pOIjxVE0D0Ky-h-14" value="" style="endArrow=classic;html=1;fontSize=16;" parent="1" source="38Jvs0pOIjxVE0D0Ky-h-6" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="330" y="150" as="sourcePoint"/>
-            <mxPoint x="160" y="180" as="targetPoint"/>
+            <mxPoint x="1660" y="310" as="sourcePoint"/>
+            <mxPoint x="1490" y="340" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
         <mxCell id="38Jvs0pOIjxVE0D0Ky-h-16" value="" style="endArrow=classic;html=1;fontSize=16;entryX=-0.017;entryY=0.367;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="38Jvs0pOIjxVE0D0Ky-h-13" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="160" y="210" as="sourcePoint"/>
-            <mxPoint x="60" y="440" as="targetPoint"/>
+            <mxPoint x="1490" y="370" as="sourcePoint"/>
+            <mxPoint x="1390" y="600" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
         <mxCell id="38Jvs0pOIjxVE0D0Ky-h-17" value="" style="endArrow=classic;html=1;fontSize=16;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" parent="1" source="38Jvs0pOIjxVE0D0Ky-h-13" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="640" y="205.49" as="sourcePoint"/>
-            <mxPoint x="1050" y="208" as="targetPoint"/>
+            <mxPoint x="1970" y="365.49" as="sourcePoint"/>
+            <mxPoint x="2380" y="368" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
         <mxCell id="38Jvs0pOIjxVE0D0Ky-h-18" value="Since it was encrypted with a public key the&lt;br&gt;message requires a private key to be decrypted" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="387.5" y="330" width="350" height="40" as="geometry"/>
+          <mxGeometry x="1717.5" y="490" width="350" height="40" as="geometry"/>
         </mxCell>
         <mxCell id="38Jvs0pOIjxVE0D0Ky-h-19" value="Bob doesn&#39;t have access to Alice&#39;s private key and cannot decrypt the ciphertext." style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];strokeColor=#000000;fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;container=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="920" y="110" width="219" height="20" as="geometry"/>
+          <mxGeometry x="2250" y="270" width="219" height="20" as="geometry"/>
         </mxCell>
         <mxCell id="38Jvs0pOIjxVE0D0Ky-h-20" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;fontSize=16;dashed=1;" parent="1" target="38Jvs0pOIjxVE0D0Ky-h-19" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1080" y="180" as="sourcePoint"/>
+            <mxPoint x="2410" y="340" as="sourcePoint"/>
           </mxGeometry>
         </mxCell>
         <mxCell id="38Jvs0pOIjxVE0D0Ky-h-21" value="" style="endArrow=none;dashed=1;html=1;fontSize=16;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="38Jvs0pOIjxVE0D0Ky-h-18" target="38Jvs0pOIjxVE0D0Ky-h-13" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="10" y="490" as="sourcePoint"/>
-            <mxPoint x="60" y="440" as="targetPoint"/>
+            <mxPoint x="1340" y="650" as="sourcePoint"/>
+            <mxPoint x="1390" y="600" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
         <mxCell id="38Jvs0pOIjxVE0D0Ky-h-22" value="Alice" style="shape=umlActor;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;html=1;outlineConnect=0;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="172.5" y="666.5" width="30" height="60" as="geometry"/>
+          <mxGeometry x="15" y="250" width="30" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="38Jvs0pOIjxVE0D0Ky-h-23" value="Bob" style="shape=umlActor;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;html=1;outlineConnect=0;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="1062.5" y="666.5" width="30" height="60" as="geometry"/>
+          <mxGeometry x="1053.75" y="254.5" width="30" height="60" as="geometry"/>
         </mxCell>
-        <mxCell id="38Jvs0pOIjxVE0D0Ky-h-24" value="Alice&#39;s&lt;br&gt;Private Key" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.security.key_permissions;fillColor=#DA4026;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="32.5" y="666.5" width="25" height="53" as="geometry"/>
-        </mxCell>
-        <mxCell id="38Jvs0pOIjxVE0D0Ky-h-25" value="Alice&#39;s&lt;br&gt;Public Key" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.security.key_permissions;fillColor=#7FBA42;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="550" y="418" width="25" height="53" as="geometry"/>
+        <mxCell id="38Jvs0pOIjxVE0D0Ky-h-25" value="Bob&#39;s&lt;br&gt;Public Key" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.security.key_permissions;fillColor=#7FBA42;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="541.25" y="6" width="25" height="53" as="geometry"/>
         </mxCell>
         <mxCell id="38Jvs0pOIjxVE0D0Ky-h-26" value="[M]&lt;sub&gt;Alice&lt;/sub&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="506" y="680" width="120" height="60" as="geometry"/>
+          <mxGeometry x="497.25" y="268" width="120" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="38Jvs0pOIjxVE0D0Ky-h-28" value="" style="endArrow=classic;html=1;fontSize=16;entryX=-0.017;entryY=0.367;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="38Jvs0pOIjxVE0D0Ky-h-26" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="202.5" y="702" as="sourcePoint"/>
-            <mxPoint x="72.5" y="930" as="targetPoint"/>
+            <mxPoint x="40" y="290" as="sourcePoint"/>
+            <mxPoint x="63.75" y="518" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
         <mxCell id="38Jvs0pOIjxVE0D0Ky-h-29" value="" style="endArrow=classic;html=1;fontSize=16;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" parent="1" source="38Jvs0pOIjxVE0D0Ky-h-26" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="652.5" y="695.49" as="sourcePoint"/>
-            <mxPoint x="1062.5" y="698" as="targetPoint"/>
+            <mxPoint x="643.75" y="283.49" as="sourcePoint"/>
+            <mxPoint x="1053.75" y="286" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
         <mxCell id="38Jvs0pOIjxVE0D0Ky-h-30" value="Since it was encrypted with a private key the&lt;br&gt;message requires a public key to be decrypted" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="391" y="780" width="350" height="40" as="geometry"/>
+          <mxGeometry x="382.25" y="368" width="350" height="40" as="geometry"/>
         </mxCell>
         <mxCell id="38Jvs0pOIjxVE0D0Ky-h-31" value="" style="endArrow=none;dashed=1;html=1;fontSize=16;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="38Jvs0pOIjxVE0D0Ky-h-30" target="38Jvs0pOIjxVE0D0Ky-h-26" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="20" y="940" as="sourcePoint"/>
-            <mxPoint x="70" y="890" as="targetPoint"/>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="38Jvs0pOIjxVE0D0Ky-h-32" value="" style="endArrow=classic;html=1;fontSize=16;" parent="1" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="62.5" y="700" as="sourcePoint"/>
-            <mxPoint x="172.5" y="700" as="targetPoint"/>
+            <mxPoint x="11.25" y="528" as="sourcePoint"/>
+            <mxPoint x="61.25" y="478" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
         <mxCell id="38Jvs0pOIjxVE0D0Ky-h-33" value="Encrypting a message &lt;br&gt;using &lt;u&gt;Bob&#39;s private key&lt;/u&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=30;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="10" y="430" width="350" height="80" as="geometry"/>
         </mxCell>
         <mxCell id="38Jvs0pOIjxVE0D0Ky-h-34" value="Hacker" style="shape=umlActor;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;html=1;outlineConnect=0;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="680" y="543" width="30" height="60" as="geometry"/>
+          <mxGeometry x="671.25" y="131" width="30" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="38Jvs0pOIjxVE0D0Ky-h-35" value="" style="endArrow=classic;html=1;fontSize=16;" parent="1" source="38Jvs0pOIjxVE0D0Ky-h-25" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="10" y="890" as="sourcePoint"/>
-            <mxPoint x="1060" y="670" as="targetPoint"/>
+            <mxPoint x="1.25" y="478" as="sourcePoint"/>
+            <mxPoint x="1051.25" y="258" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
         <mxCell id="38Jvs0pOIjxVE0D0Ky-h-36" value="" style="endArrow=classic;html=1;fontSize=16;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="38Jvs0pOIjxVE0D0Ky-h-25" target="38Jvs0pOIjxVE0D0Ky-h-34" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="590" y="585" as="sourcePoint"/>
-            <mxPoint x="670" y="535" as="targetPoint"/>
+            <mxPoint x="581.25" y="173" as="sourcePoint"/>
+            <mxPoint x="661.25" y="123" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
         <mxCell id="38Jvs0pOIjxVE0D0Ky-h-37" value="" style="endArrow=classic;html=1;fontSize=16;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fillColor=#f8cecc;strokeColor=#FF3333;" parent="1" source="38Jvs0pOIjxVE0D0Ky-h-26" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="550" y="610" as="sourcePoint"/>
-            <mxPoint x="680" y="570" as="targetPoint"/>
+            <mxPoint x="541.25" y="198" as="sourcePoint"/>
+            <mxPoint x="671.25" y="158" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
         <mxCell id="38Jvs0pOIjxVE0D0Ky-h-38" value="{[M]&lt;sub&gt;Alice&lt;/sub&gt;}&lt;sub&gt;Alice&lt;/sub&gt; = M" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="630" y="620" width="140" height="30" as="geometry"/>
+          <mxGeometry x="621.25" y="208" width="140" height="30" as="geometry"/>
         </mxCell>
         <mxCell id="38Jvs0pOIjxVE0D0Ky-h-39" value="{[M]&lt;sub&gt;Alice&lt;/sub&gt;}&lt;sub&gt;Alice&lt;/sub&gt; = M" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="1007.5" y="750" width="140" height="30" as="geometry"/>
+          <mxGeometry x="998.75" y="338" width="140" height="30" as="geometry"/>
         </mxCell>
         <mxCell id="38Jvs0pOIjxVE0D0Ky-h-40" value="Because ANYONE can have access to the public key. Any person who intersects the message can decrypt it." style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];strokeColor=#000000;fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;container=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="790" y="480" width="280" height="20" as="geometry"/>
+          <mxGeometry x="781.25" y="68" width="280" height="20" as="geometry"/>
         </mxCell>
         <mxCell id="38Jvs0pOIjxVE0D0Ky-h-41" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;strokeColor=#080808;fontSize=16;exitX=1.16;exitY=0.264;exitDx=0;exitDy=0;exitPerimeter=0;dashed=1;" parent="1" source="38Jvs0pOIjxVE0D0Ky-h-25" target="38Jvs0pOIjxVE0D0Ky-h-40" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="860" y="490" as="sourcePoint"/>
+            <mxPoint x="851.25" y="78" as="sourcePoint"/>
           </mxGeometry>
         </mxCell>
         <mxCell id="38Jvs0pOIjxVE0D0Ky-h-43" value="{M}&lt;sub&gt;Alice&lt;/sub&gt; = C" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="1015" y="260" width="100" height="30" as="geometry"/>
+          <mxGeometry x="2345" y="420" width="100" height="30" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
