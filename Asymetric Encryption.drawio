@@ -1,1 +1,16 @@
-<mxfile host="www.draw.io" modified="2020-01-26T04:25:47.189Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" version="12.5.8" etag="Q1rwch1yUn4kevCMYU1a" type="github"><diagram id="e7qFFtyubb4bdd4dZvRK">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="www.draw.io" modified="2020-01-26T04:35:24.494Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="xrxxi4Do0Gumw6Kt4ina" version="12.5.8" type="github">
+  <diagram id="e7qFFtyubb4bdd4dZvRK" name="Page-1">
+    <mxGraphModel dx="1422" dy="745" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="d-wa3hP4QLAPHfcPqcP9-1" value="&lt;div style=&quot;font-size: 16px&quot;&gt;Hey Bob,&lt;/div&gt;&lt;div style=&quot;font-size: 16px&quot;&gt;Did you know that:&lt;/div&gt;&lt;div style=&quot;font-size: 16px&quot;&gt;&lt;br style=&quot;font-size: 16px&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px&quot;&gt;RSA (Rivest-Shamir-Adleman) is the most widely used asymmetric encryption algorithm.&lt;/div&gt;&lt;div style=&quot;font-size: 16px&quot;&gt;&lt;br style=&quot;font-size: 16px&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px&quot;&gt;ECC (Elliptic Curved Cryptography) is an alternative to RSA that it&#39;s gaining popularity.&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="170" y="200" width="230" height="250" as="geometry"/>
+        </mxCell>
+        <mxCell id="d-wa3hP4QLAPHfcPqcP9-2" value="&lt;div&gt;H3cn5gtdiWDol0CS7t0L6SH27&lt;/div&gt;&lt;div&gt;Momm8h/OuCKM5Lwv/W3qHL&lt;/div&gt;&lt;div&gt;XEngGgM60hqjo+J8CF+dsJJd&lt;/div&gt;&lt;div&gt;G4yUdu7LlTwZ15h65y92hRVL&lt;/div&gt;&lt;div&gt;HOz5OShRCzmca+arzEowgfm&lt;/div&gt;&lt;div&gt;W0HCGwPeqQZNvt1x1Ybh16I&lt;/div&gt;&lt;div&gt;htkf/l6dqSkvgyNof1tE8y2y70Fw&lt;/div&gt;&lt;div&gt;OYBXtlD3nvfUSuHc6jTyk/wckL&lt;/div&gt;&lt;div&gt;&lt;span&gt;RS60dHJFPUUAkv+MFKG7ou&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;5ujBXCM8MuLFLQqbLiY8RyT&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;hbNIi/CKGfo22/ksFU4djUuL5h&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;7dF5so0oR5cDM2C9dfpaMpau&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;0e2lCanHY=&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="450" y="200" width="230" height="250" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
