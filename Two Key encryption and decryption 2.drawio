@@ -1,11 +1,11 @@
-<mxfile host="www.draw.io" modified="2020-01-26T04:09:53.160Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="0AVnXEaRBBloF2upxPBA" version="12.5.8" type="github">
+<mxfile host="www.draw.io" modified="2020-01-26T04:11:26.252Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="zGzGljJrcMWovzJkTs5x" version="12.5.8" type="github">
   <diagram id="Ivaq9Wk9pbHShbpB38O0" name="Page-1">
     <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0"/>
         <mxCell id="1" parent="0"/>
-        <mxCell id="38Jvs0pOIjxVE0D0Ky-h-1" value="Encrypting a message &lt;br&gt;using &lt;u&gt;Bob&#39;s public key&lt;/u&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=30;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="15" y="10" width="340" height="80" as="geometry"/>
+        <mxCell id="38Jvs0pOIjxVE0D0Ky-h-1" value="Alice encrypting a message&lt;br&gt;using &lt;u&gt;Bob&#39;s public key&lt;/u&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=30;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="7.5" y="10" width="410" height="80" as="geometry"/>
         </mxCell>
         <mxCell id="38Jvs0pOIjxVE0D0Ky-h-5" value="Bob&#39;s&lt;br&gt;Private Key" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.security.key_permissions;fillColor=#DA4026;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="1101.25" y="250" width="25" height="53" as="geometry"/>
@@ -46,8 +46,8 @@
             <mxPoint x="61.25" y="478" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="38Jvs0pOIjxVE0D0Ky-h-33" value="Encrypting a message &lt;br&gt;using &lt;u&gt;Bob&#39;s private key&lt;/u&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=30;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="10" y="430" width="350" height="80" as="geometry"/>
+        <mxCell id="38Jvs0pOIjxVE0D0Ky-h-33" value="Alice encrypting a message&lt;br&gt;using &lt;u&gt;Bob&#39;s private key&lt;/u&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=30;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="15" y="430" width="410" height="80" as="geometry"/>
         </mxCell>
         <mxCell id="38Jvs0pOIjxVE0D0Ky-h-34" value="Hacker" style="shape=umlActor;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;html=1;outlineConnect=0;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="671.25" y="131" width="30" height="60" as="geometry"/>
