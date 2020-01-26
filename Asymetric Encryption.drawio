@@ -1,14 +1,110 @@
-<mxfile host="www.draw.io" modified="2020-01-26T04:35:24.494Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="xrxxi4Do0Gumw6Kt4ina" version="12.5.8" type="github">
+<mxfile host="www.draw.io" modified="2020-01-26T04:54:46.303Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="HrCR1bzI-_7gRQ8JT8OV" version="12.5.8" type="github">
   <diagram id="e7qFFtyubb4bdd4dZvRK" name="Page-1">
     <mxGraphModel dx="1422" dy="745" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0"/>
         <mxCell id="1" parent="0"/>
         <mxCell id="d-wa3hP4QLAPHfcPqcP9-1" value="&lt;div style=&quot;font-size: 16px&quot;&gt;Hey Bob,&lt;/div&gt;&lt;div style=&quot;font-size: 16px&quot;&gt;Did you know that:&lt;/div&gt;&lt;div style=&quot;font-size: 16px&quot;&gt;&lt;br style=&quot;font-size: 16px&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px&quot;&gt;RSA (Rivest-Shamir-Adleman) is the most widely used asymmetric encryption algorithm.&lt;/div&gt;&lt;div style=&quot;font-size: 16px&quot;&gt;&lt;br style=&quot;font-size: 16px&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px&quot;&gt;ECC (Elliptic Curved Cryptography) is an alternative to RSA that it&#39;s gaining popularity.&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="170" y="200" width="230" height="250" as="geometry"/>
+          <mxGeometry x="39" y="420" width="230" height="250" as="geometry"/>
         </mxCell>
         <mxCell id="d-wa3hP4QLAPHfcPqcP9-2" value="&lt;div&gt;H3cn5gtdiWDol0CS7t0L6SH27&lt;/div&gt;&lt;div&gt;Momm8h/OuCKM5Lwv/W3qHL&lt;/div&gt;&lt;div&gt;XEngGgM60hqjo+J8CF+dsJJd&lt;/div&gt;&lt;div&gt;G4yUdu7LlTwZ15h65y92hRVL&lt;/div&gt;&lt;div&gt;HOz5OShRCzmca+arzEowgfm&lt;/div&gt;&lt;div&gt;W0HCGwPeqQZNvt1x1Ybh16I&lt;/div&gt;&lt;div&gt;htkf/l6dqSkvgyNof1tE8y2y70Fw&lt;/div&gt;&lt;div&gt;OYBXtlD3nvfUSuHc6jTyk/wckL&lt;/div&gt;&lt;div&gt;&lt;span&gt;RS60dHJFPUUAkv+MFKG7ou&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;5ujBXCM8MuLFLQqbLiY8RyT&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;hbNIi/CKGfo22/ksFU4djUuL5h&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;7dF5so0oR5cDM2C9dfpaMpau&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;0e2lCanHY=&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="450" y="200" width="230" height="250" as="geometry"/>
+          <mxGeometry x="469" y="420" width="230" height="250" as="geometry"/>
+        </mxCell>
+        <mxCell id="d-wa3hP4QLAPHfcPqcP9-3" value="Two Keys, one to encrypt, another to decrypt." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=30;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="249" y="20" width="670" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="d-wa3hP4QLAPHfcPqcP9-7" value="Bob&#39;s&lt;br style=&quot;font-size: 16px;&quot;&gt;Private Key" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.security.key_permissions;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="789" y="420" width="25" height="53" as="geometry"/>
+        </mxCell>
+        <mxCell id="d-wa3hP4QLAPHfcPqcP9-8" value="Bob&#39;s&lt;br&gt;Public Key" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.security.key_permissions;fillColor=#CCCBCB;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="359" y="420" width="25" height="53" as="geometry"/>
+        </mxCell>
+        <mxCell id="d-wa3hP4QLAPHfcPqcP9-10" value="" style="endArrow=classic;html=1;fontSize=16;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="d-wa3hP4QLAPHfcPqcP9-1" target="d-wa3hP4QLAPHfcPqcP9-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="346.5" y="590" as="sourcePoint"/>
+            <mxPoint x="396.5" y="540" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d-wa3hP4QLAPHfcPqcP9-13" value="" style="endArrow=classic;html=1;fontSize=16;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="699" y="545" as="sourcePoint"/>
+            <mxPoint x="899" y="545" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d-wa3hP4QLAPHfcPqcP9-14" value="&lt;div style=&quot;font-size: 16px&quot;&gt;Hey Bob,&lt;/div&gt;&lt;div style=&quot;font-size: 16px&quot;&gt;Did you know that:&lt;/div&gt;&lt;div style=&quot;font-size: 16px&quot;&gt;&lt;br style=&quot;font-size: 16px&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px&quot;&gt;RSA (Rivest-Shamir-Adleman) is the most widely used asymmetric encryption algorithm.&lt;/div&gt;&lt;div style=&quot;font-size: 16px&quot;&gt;&lt;br style=&quot;font-size: 16px&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px&quot;&gt;ECC (Elliptic Curved Cryptography) is an alternative to RSA that it&#39;s gaining popularity.&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="899" y="420" width="230" height="250" as="geometry"/>
+        </mxCell>
+        <mxCell id="d-wa3hP4QLAPHfcPqcP9-15" value="Encrypt" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="336.5" y="550" width="70" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="d-wa3hP4QLAPHfcPqcP9-16" value="Decrypt" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="766.5" y="550" width="70" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="d-wa3hP4QLAPHfcPqcP9-17" value="M" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="135" y="730" width="30" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="d-wa3hP4QLAPHfcPqcP9-18" value="C = {M}&lt;sub&gt;Bob&lt;/sub&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="528" y="725" width="90" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="d-wa3hP4QLAPHfcPqcP9-19" value="Plaintext" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="114" y="684" width="80" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="d-wa3hP4QLAPHfcPqcP9-20" value="Ciphertext" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="539" y="684" width="90" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="d-wa3hP4QLAPHfcPqcP9-21" value="Plaintext" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="974" y="684" width="80" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="d-wa3hP4QLAPHfcPqcP9-22" value="[{M}&lt;sub&gt;Bob&lt;/sub&gt;]&lt;sub&gt;Bob&lt;/sub&gt; = M" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="949" y="725" width="130" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="d-wa3hP4QLAPHfcPqcP9-23" value="Alice" style="shape=umlActor;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;html=1;outlineConnect=0;fontSize=16;align=left;" vertex="1" parent="1">
+          <mxGeometry x="139" y="190" width="30" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="d-wa3hP4QLAPHfcPqcP9-25" value="Bob" style="shape=umlActor;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;html=1;outlineConnect=0;fontSize=16;align=left;" vertex="1" parent="1">
+          <mxGeometry x="999" y="190" width="30" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="d-wa3hP4QLAPHfcPqcP9-31" value="" style="endArrow=classic;html=1;fontSize=16;" edge="1" parent="1" target="d-wa3hP4QLAPHfcPqcP9-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="169" y="220" as="sourcePoint"/>
+            <mxPoint x="360" y="410" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d-wa3hP4QLAPHfcPqcP9-32" value="" style="endArrow=classic;html=1;fontSize=16;" edge="1" parent="1" target="d-wa3hP4QLAPHfcPqcP9-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1000" y="220" as="sourcePoint"/>
+            <mxPoint x="800" y="410" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d-wa3hP4QLAPHfcPqcP9-35" value="Alice uses Bob&#39;s public key to encrypt the message." style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];strokeColor=#000000;fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;container=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="269" y="130" width="204" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="d-wa3hP4QLAPHfcPqcP9-36" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;fontSize=16;exitX=0.75;exitY=0.1;exitDx=0;exitDy=0;exitPerimeter=0;dashed=1;" edge="1" target="d-wa3hP4QLAPHfcPqcP9-35" parent="1" source="d-wa3hP4QLAPHfcPqcP9-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="344" y="270" as="sourcePoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d-wa3hP4QLAPHfcPqcP9-38" value="Different keys but mathematically linked." style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];strokeColor=#000000;fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;container=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="424" y="280" width="320" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="d-wa3hP4QLAPHfcPqcP9-39" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;fontSize=16;dashed=1;" edge="1" target="d-wa3hP4QLAPHfcPqcP9-38" parent="1" source="d-wa3hP4QLAPHfcPqcP9-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="524" y="310" as="sourcePoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d-wa3hP4QLAPHfcPqcP9-40" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;fontSize=16;entryX=0;entryY=1;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="d-wa3hP4QLAPHfcPqcP9-8" target="d-wa3hP4QLAPHfcPqcP9-38">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="799" y="456.5" as="sourcePoint"/>
+            <mxPoint x="774" y="300" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d-wa3hP4QLAPHfcPqcP9-41" value="Bob uses his private key to decrypt the ciphertext." style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];strokeColor=#000000;fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;container=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="715" y="130" width="184" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="d-wa3hP4QLAPHfcPqcP9-42" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;fontSize=16;entryX=0.25;entryY=0.1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=1;exitDx=0;exitDy=0;dashed=1;" edge="1" target="d-wa3hP4QLAPHfcPqcP9-25" parent="1" source="d-wa3hP4QLAPHfcPqcP9-41">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="880" y="230" as="sourcePoint"/>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
