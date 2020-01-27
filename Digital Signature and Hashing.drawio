@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-01-27T08:39:05.499Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="erdwhv0BlpCMDSC69VbN" version="12.5.8" type="github">
+<mxfile host="www.draw.io" modified="2020-01-27T08:50:19.621Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="767B7To3xOcSAwQFQwOT" version="12.5.8" type="github">
   <diagram id="FFd1XqcRoBSRBbn-Ny9c" name="Page-1">
     <mxGraphModel dx="1422" dy="745" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -171,6 +171,21 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1025" y="640" as="sourcePoint"/>
             <mxPoint x="1025" y="545" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dRaCBSaMQyahMNqzz_hf-37" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;startArrow=none;startFill=0;endArrow=none;endFill=0;fontSize=16;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="dRaCBSaMQyahMNqzz_hf-35" target="dRaCBSaMQyahMNqzz_hf-4">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="dRaCBSaMQyahMNqzz_hf-35" value="Hacker" style="shape=umlActor;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;html=1;outlineConnect=0;strokeColor=#080808;strokeWidth=1;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="490" y="590" width="30" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="dRaCBSaMQyahMNqzz_hf-38" value="A man in the middle cannot impersonate Alice because he doesn&#39;t have access to Alice&#39;s Private Key to sign the message again and changing the plaintext will change the hash value.&amp;nbsp;" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];strokeColor=#000000;fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;container=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;labelBackgroundColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="74" y="770" width="290" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="dRaCBSaMQyahMNqzz_hf-41" value="" style="endArrow=none;dashed=1;html=1;fontSize=16;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="690" as="sourcePoint"/>
+            <mxPoint x="490" y="620" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
       </root>
