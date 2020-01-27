@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-01-27T07:08:00.805Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="aAPJDMkactEEye6kdReO" version="12.5.8" type="github">
+<mxfile host="www.draw.io" modified="2020-01-27T07:21:24.666Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="FPq-tBcUb7aPgwuz-fvT" version="12.5.8" type="github">
   <diagram id="FFd1XqcRoBSRBbn-Ny9c" name="Page-1">
     <mxGraphModel dx="1422" dy="745" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -74,6 +74,36 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1000" y="310" as="sourcePoint"/>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="IH-IT71rxQI0cDf8x-Qy-21" value="Because Bob was able to&lt;br&gt;verify Alice&#39;s signature he knows &lt;br&gt;the message came from Alice." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="919" y="601" width="250" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="IH-IT71rxQI0cDf8x-Qy-22" value="" style="endArrow=none;dashed=1;html=1;fontSize=16;exitX=0.583;exitY=-0.05;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.56;entryY=1.033;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="IH-IT71rxQI0cDf8x-Qy-21" target="IH-IT71rxQI0cDf8x-Qy-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1020" y="760" as="sourcePoint"/>
+            <mxPoint x="1070" y="710" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IH-IT71rxQI0cDf8x-Qy-23" value="Anyone can verify the signature &lt;br&gt;by using Alice&#39;s Public Key.&lt;br&gt;&lt;br&gt;Alice cannot deny the message because she is &lt;br&gt;the only one with access to her Private Key." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="409" y="530" width="350" height="100" as="geometry"/>
+        </mxCell>
+        <mxCell id="IH-IT71rxQI0cDf8x-Qy-24" value="" style="endArrow=none;dashed=1;html=1;fontSize=16;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="IH-IT71rxQI0cDf8x-Qy-23" target="IH-IT71rxQI0cDf8x-Qy-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="10" y="730" as="sourcePoint"/>
+            <mxPoint x="60" y="680" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IH-IT71rxQI0cDf8x-Qy-25" value="" style="shape=crossbar;whiteSpace=wrap;html=1;rounded=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="10" y="151" width="230" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="IH-IT71rxQI0cDf8x-Qy-27" value="Sign" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="110" y="140" width="50" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="IH-IT71rxQI0cDf8x-Qy-28" value="" style="shape=crossbar;whiteSpace=wrap;html=1;rounded=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="929" y="151" width="230" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="IH-IT71rxQI0cDf8x-Qy-29" value="Verification" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="140" width="90" height="20" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
