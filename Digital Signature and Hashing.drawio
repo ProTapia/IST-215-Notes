@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-01-27T08:29:06.527Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="p-nE5WUL4ROrQ5mWCEpt" version="12.5.8" type="github">
+<mxfile host="www.draw.io" modified="2020-01-27T08:39:05.499Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="erdwhv0BlpCMDSC69VbN" version="12.5.8" type="github">
   <diagram id="FFd1XqcRoBSRBbn-Ny9c" name="Page-1">
     <mxGraphModel dx="1422" dy="745" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -158,8 +158,20 @@
             <mxPoint x="70" y="560" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="dRaCBSaMQyahMNqzz_hf-30" value="Because the two hash values are &lt;br&gt;identical he achieved the following:&lt;br&gt;&lt;div&gt;&lt;ol&gt;&lt;li&gt;Non-repudiation.&lt;/li&gt;&lt;li&gt;&lt;br&gt;&lt;/li&gt;&lt;li&gt;&lt;br&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="890" y="570" width="260" height="130" as="geometry"/>
+        <mxCell id="dRaCBSaMQyahMNqzz_hf-31" value="&lt;p&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;Because the two hash values are a match Bob achieved the following:&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;ol&gt;&lt;li&gt;&lt;b&gt;Non-repudiation&lt;/b&gt;: Alice is the only person with access to her Private Key.&lt;/li&gt;&lt;li&gt;&lt;b&gt;Integrity&lt;/b&gt;: Both hash values match which means the message has not been altered.&lt;/li&gt;&lt;li&gt;&lt;b&gt;Authentication&lt;/b&gt;: Bob was able to verify Alice&#39;s signature using her Public Key.&lt;/li&gt;&lt;/ol&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;labelBackgroundColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="805" y="620" width="360" height="180" as="geometry"/>
+        </mxCell>
+        <mxCell id="dRaCBSaMQyahMNqzz_hf-32" value="" style="endArrow=none;dashed=1;html=1;fontSize=16;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.625;exitY=-0.006;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="dRaCBSaMQyahMNqzz_hf-31" target="dRaCBSaMQyahMNqzz_hf-21">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1015" y="630" as="sourcePoint"/>
+            <mxPoint x="1065" y="580" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dRaCBSaMQyahMNqzz_hf-33" value="" style="endArrow=none;dashed=1;html=1;fontSize=16;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.628;exitY=-0.011;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="dRaCBSaMQyahMNqzz_hf-31" target="dRaCBSaMQyahMNqzz_hf-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1025" y="640" as="sourcePoint"/>
+            <mxPoint x="1025" y="545" as="targetPoint"/>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
