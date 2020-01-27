@@ -1,11 +1,11 @@
-<mxfile host="www.draw.io" modified="2020-01-27T08:50:36.094Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="kZl3hAgXh6g7MhUM4P5p" version="12.5.8" type="github">
+<mxfile host="www.draw.io" modified="2020-01-27T08:50:44.541Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="9hGzRWDKGJA7G8rAiy8a" version="12.5.8" type="github">
   <diagram id="FFd1XqcRoBSRBbn-Ny9c" name="Page-1">
     <mxGraphModel dx="1422" dy="745" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0"/>
         <mxCell id="1" parent="0"/>
-        <mxCell id="fFfQomM4RcmljjM8Dg_y-1" value="Digital Signature with Hashing" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=30;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="359" y="20" width="450" height="40" as="geometry"/>
+        <mxCell id="fFfQomM4RcmljjM8Dg_y-1" value="Digital Signature and Hashing" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=30;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="364" y="20" width="440" height="40" as="geometry"/>
         </mxCell>
         <mxCell id="IH-IT71rxQI0cDf8x-Qy-3" value="Alice" style="shape=umlActor;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;html=1;outlineConnect=0;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="250" y="360" width="30" height="60" as="geometry"/>
