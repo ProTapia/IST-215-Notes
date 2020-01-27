@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-01-27T08:15:18.468Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="pX_TzS8pucBKmsqblzGy" version="12.5.8" type="github">
+<mxfile host="www.draw.io" modified="2020-01-27T08:28:53.016Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="tSgyfUxX_A2k5xnrUhWi" version="12.5.8" type="github">
   <diagram id="FFd1XqcRoBSRBbn-Ny9c" name="Page-1">
     <mxGraphModel dx="1422" dy="745" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -140,13 +140,26 @@
             <mxPoint x="70" y="560" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="dRaCBSaMQyahMNqzz_hf-23" value="Alice runs a hash function of her plaintext and signs it using her Private Key.&lt;br&gt;She then sends the plain text and the signed hash to Bob." style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];strokeColor=#000000;fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;container=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;labelBackgroundColor=none;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="200" y="230" width="215" height="40" as="geometry"/>
+        <mxCell id="dRaCBSaMQyahMNqzz_hf-23" value="Alice runs a hash function of her plaintext and signs it using her Private Key.&lt;br&gt;She then sends the plaintext and the signed hash to Bob." style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];strokeColor=#000000;fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;container=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;labelBackgroundColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="20" y="190" width="212" height="40" as="geometry"/>
         </mxCell>
-        <mxCell id="dRaCBSaMQyahMNqzz_hf-24" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;fontSize=16;entryX=0;entryY=1;entryDx=0;entryDy=0;exitX=0.75;exitY=0.1;exitDx=0;exitDy=0;exitPerimeter=0;dashed=1;" edge="1" target="dRaCBSaMQyahMNqzz_hf-23" parent="1" source="IH-IT71rxQI0cDf8x-Qy-3">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="280" y="450" as="sourcePoint"/>
+        <mxCell id="dRaCBSaMQyahMNqzz_hf-25" value="" style="endArrow=none;dashed=1;html=1;fontSize=16;entryX=0.591;entryY=0.975;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="IH-IT71rxQI0cDf8x-Qy-3" target="dRaCBSaMQyahMNqzz_hf-23">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="20" y="610" as="sourcePoint"/>
+            <mxPoint x="70" y="560" as="targetPoint"/>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="dRaCBSaMQyahMNqzz_hf-27" value="Bob decrypts the hash using Alice&#39;s Public Key.&lt;br&gt;He then runs the hashing function he agreed with Alice to reproduce the hash.&lt;br&gt;Finally, Bob compares the two hash values." style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];strokeColor=#000000;fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;container=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;labelBackgroundColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="797" y="170" width="338" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="dRaCBSaMQyahMNqzz_hf-29" value="" style="endArrow=none;dashed=1;html=1;fontSize=16;entryX=0.568;entryY=1.033;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="IH-IT71rxQI0cDf8x-Qy-4" target="dRaCBSaMQyahMNqzz_hf-27">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="20" y="610" as="sourcePoint"/>
+            <mxPoint x="70" y="560" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dRaCBSaMQyahMNqzz_hf-30" value="Because the two hash values are &lt;br&gt;identical he achieved the following:&lt;br&gt;&lt;div&gt;&lt;ol&gt;&lt;li&gt;Non-repudiation.&lt;/li&gt;&lt;li&gt;&lt;br&gt;&lt;/li&gt;&lt;li&gt;&lt;br&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="890" y="570" width="260" height="130" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
