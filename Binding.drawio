@@ -1,11 +1,11 @@
-<mxfile host="www.draw.io" modified="2020-02-03T04:35:24.540Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="wDo7H-8KFERLglvHxhHD" version="12.6.4" type="github">
+<mxfile host="www.draw.io" modified="2020-02-03T04:35:33.747Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="b9IeWoyVTWB489WJOVVS" version="12.6.4" type="github">
   <diagram id="CQ3KaExliSfZ6187Da4M" name="Page-1">
     <mxGraphModel dx="1422" dy="745" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0"/>
         <mxCell id="1" parent="0"/>
-        <mxCell id="skK5ssZXJBMdEnIlcwYf-1" value="Digital Certificate&lt;br style=&quot;font-size: 30px&quot;&gt;(Binding)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=30;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="454" y="10" width="260" height="80" as="geometry"/>
+        <mxCell id="skK5ssZXJBMdEnIlcwYf-1" value="Digital Certificate&lt;br style=&quot;font-size: 30px&quot;&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=30;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="454" y="30" width="260" height="40" as="geometry"/>
         </mxCell>
         <mxCell id="skK5ssZXJBMdEnIlcwYf-6" value="&lt;font style=&quot;font-size: 16px&quot;&gt;Alice&#39;s&amp;nbsp;&lt;b style=&quot;font-size: 16px&quot;&gt;&lt;font color=&quot;#7ea6e0&quot; style=&quot;font-size: 16px&quot;&gt;Public &lt;/font&gt;&lt;/b&gt;Key&lt;br style=&quot;font-size: 16px&quot;&gt;&lt;br style=&quot;font-size: 16px&quot;&gt;Name: Alice&lt;br style=&quot;font-size: 16px&quot;&gt;Exp: 2026&lt;br style=&quot;font-size: 16px&quot;&gt;Issuer: Verisign&lt;br style=&quot;font-size: 16px&quot;&gt;&lt;br style=&quot;font-size: 16px&quot;&gt;&lt;u style=&quot;font-size: 16px&quot;&gt;Signature &lt;/u&gt;by Verisign&lt;/font&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=16;verticalAlign=bottom;" parent="1" vertex="1">
           <mxGeometry x="520" y="620" width="160" height="160" as="geometry"/>
