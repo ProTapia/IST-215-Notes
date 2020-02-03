@@ -1,0 +1,90 @@
+<mxfile host="www.draw.io" modified="2020-02-03T07:35:38.348Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="ORzC7Mc1LfAlfHhsIgAb" version="12.6.4" type="github">
+  <diagram id="1pkOPD2tN872ybyZ4b0a" name="Page-1">
+    <mxGraphModel dx="1422" dy="745" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="3GT3_tIaPKossPLVTqcz-2" value="https:www.amazon.com" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="165" y="120" width="160" height="160" as="geometry"/>
+        </mxCell>
+        <mxCell id="3GT3_tIaPKossPLVTqcz-3" value="Amazon.com&lt;br style=&quot;font-size: 16px;&quot;&gt;Web Server" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="834" y="120" width="160" height="160" as="geometry"/>
+        </mxCell>
+        <mxCell id="3GT3_tIaPKossPLVTqcz-4" value="Web Browser" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="190" y="280" width="110" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="3GT3_tIaPKossPLVTqcz-5" value="Amazon.com" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="858" y="280" width="110" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="3GT3_tIaPKossPLVTqcz-6" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;fontSize=16;" parent="1" source="3GT3_tIaPKossPLVTqcz-2" target="3GT3_tIaPKossPLVTqcz-3" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="274" y="370" as="sourcePoint"/>
+            <mxPoint x="324" y="320" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3GT3_tIaPKossPLVTqcz-9" value="" style="endArrow=classic;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;fillColor=#f8cecc;strokeColor=#080808;fontSize=16;fontColor=#080808;" parent="1" source="3GT3_tIaPKossPLVTqcz-3" target="3GT3_tIaPKossPLVTqcz-2" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="274" y="370" as="sourcePoint"/>
+            <mxPoint x="324" y="320" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3GT3_tIaPKossPLVTqcz-18" value="Verification Process" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=30;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="434" y="20" width="300" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="2210kzHJu_cHsQQhHqk_-1" value="Amazon&#39;s Public Key&lt;br style=&quot;font-size: 16px;&quot;&gt;&lt;br style=&quot;font-size: 16px;&quot;&gt;Subject name: Amazon.com&lt;br style=&quot;font-size: 16px;&quot;&gt;&lt;br style=&quot;font-size: 16px;&quot;&gt;&lt;br style=&quot;font-size: 16px;&quot;&gt;Signed by Verisign" style="whiteSpace=wrap;html=1;aspect=fixed;verticalAlign=middle;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="597" y="452" width="160" height="160" as="geometry"/>
+        </mxCell>
+        <mxCell id="2210kzHJu_cHsQQhHqk_-3" value="Digital Certificate" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="604" y="429" width="140" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="2210kzHJu_cHsQQhHqk_-4" value="&lt;h1 style=&quot;font-size: 16px;&quot;&gt;Verification Process&lt;/h1&gt;&lt;p style=&quot;font-size: 16px;&quot;&gt;&lt;/p&gt;&lt;ol style=&quot;font-size: 16px;&quot;&gt;&lt;li style=&quot;font-size: 16px;&quot;&gt;The web browser (verifier) requests the digital certificate from Amazon.com web server (prover) for authentication.&lt;/li&gt;&lt;li style=&quot;font-size: 16px;&quot;&gt;The web browser (verifier) verifies if the digital certificate received from Amazon.com web server is signed by a third party(Certificate Authority) that the web browser fully trusts.&lt;/li&gt;&lt;li style=&quot;font-size: 16px;&quot;&gt;If the digital signature is verified to be genuine, the web browser (verifier) trusts the public key-name binding statememnt(Amazon.com-PubKEY&lt;sub style=&quot;font-size: 16px;&quot;&gt;Amazon&lt;/sub&gt;&amp;nbsp;) and retreives the public key (PubKEY&lt;sub style=&quot;font-size: 16px;&quot;&gt;Amazon&lt;/sub&gt;) of the subject (Amazon.com).&lt;/li&gt;&lt;/ol&gt;&lt;p style=&quot;font-size: 16px;&quot;&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry y="570" width="490" height="250" as="geometry"/>
+        </mxCell>
+        <mxCell id="2210kzHJu_cHsQQhHqk_-5" value="Verifier" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="210" y="100" width="70" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="2210kzHJu_cHsQQhHqk_-6" value="Prover" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="884" y="100" width="60" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="2210kzHJu_cHsQQhHqk_-8" value="" style="endArrow=classic;html=1;fontSize=16;fontColor=#080808;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="673.5" y="422" as="sourcePoint"/>
+            <mxPoint x="673.5" y="242" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2210kzHJu_cHsQQhHqk_-9" value="Certificate Authority" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];strokeColor=#000000;fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;container=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;fontSize=16;fontColor=#080808;" vertex="1" parent="1">
+          <mxGeometry x="834" y="562" width="170" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="2210kzHJu_cHsQQhHqk_-10" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;strokeColor=#080808;fontSize=16;fontColor=#080808;exitX=0.988;exitY=0.875;exitDx=0;exitDy=0;exitPerimeter=0;dashed=1;" edge="1" target="2210kzHJu_cHsQQhHqk_-9" parent="1" source="2210kzHJu_cHsQQhHqk_-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="805" y="572" as="sourcePoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2210kzHJu_cHsQQhHqk_-11" value="" style="endArrow=classic;html=1;strokeColor=#080808;fontSize=15;fontColor=#080808;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=0.282;exitY=1.2;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="3GT3_tIaPKossPLVTqcz-4" target="2210kzHJu_cHsQQhHqk_-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="385" y="350" as="sourcePoint"/>
+            <mxPoint x="435" y="300" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2210kzHJu_cHsQQhHqk_-13" value="&lt;span style=&quot;color: rgba(0 , 0 , 0 , 0) ; font-family: monospace ; font-size: 0px&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%222.The%20web%20browser%20verifies%20the%20digital%20certificate%20is%20signed%20by%20a%20third%20party%20it%20fully%20trusts.%22%20style%3D%22whiteSpace%3Dwrap%3Bshape%3DpartialRectangle%3Btop%3D0%3Bleft%3D0%3Bbottom%3D1%3Bright%3D0%3Bpoints%3D%5B%5B0%2C1%5D%2C%5B1%2C1%5D%5D%3BstrokeColor%3D%23000000%3BfillColor%3Dnone%3Balign%3Dcenter%3BverticalAlign%3Dbottom%3BroutingCenterY%3D0.5%3BsnapToPoint%3D1%3Bcontainer%3D1%3BrecursiveResize%3D0%3Bautosize%3D1%3BtreeFolding%3D1%3BtreeMoving%3D1%3BfontSize%3D16%3BfontColor%3D%23080808%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22130%22%20y%3D%22449%22%20width%3D%22347%22%20height%3D%2220%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;&lt;span style=&quot;color: rgba(0 , 0 , 0 , 0) ; font-family: monospace ; font-size: 0px&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%222.The%20web%20browser%20verifies%20the%20digital%20certificate%20is%20signed%20by%20a%20third%20party%20it%20fully%20trusts.%22%20style%3D%22whiteSpace%3Dwrap%3Bshape%3DpartialRectangle%3Btop%3D0%3Bleft%3D0%3Bbottom%3D1%3Bright%3D0%3Bpoints%3D%5B%5B0%2C1%5D%2C%5B1%2C1%5D%5D%3BstrokeColor%3D%23000000%3BfillColor%3Dnone%3Balign%3Dcenter%3BverticalAlign%3Dbottom%3BroutingCenterY%3D0.5%3BsnapToPoint%3D1%3Bcontainer%3D1%3BrecursiveResize%3D0%3Bautosize%3D1%3BtreeFolding%3D1%3BtreeMoving%3D1%3BfontSize%3D16%3BfontColor%3D%23080808%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22130%22%20y%3D%22449%22%20width%3D%22347%22%20height%3D%2220%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=30;fontColor=#080808;" vertex="1" parent="1">
+          <mxGeometry x="465" y="197" width="20" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="2210kzHJu_cHsQQhHqk_-14" value="1.The web browser requests the digital certificate for authorization" style="whiteSpace=wrap;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];strokeColor=#000000;fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;container=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;fontSize=16;fontColor=#080808;" vertex="1" parent="1">
+          <mxGeometry x="445" y="140" width="265" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="2210kzHJu_cHsQQhHqk_-16" value="2.The web browser verifies the digital certificate is signed by a third party it fully trusts." style="whiteSpace=wrap;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];strokeColor=#000000;fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;container=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;fontSize=16;fontColor=#080808;" vertex="1" parent="1">
+          <mxGeometry x="50" y="470" width="347" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="2210kzHJu_cHsQQhHqk_-18" value="3. The web browser retreives the public key of the subject." style="whiteSpace=wrap;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];strokeColor=#000000;fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;container=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;fontSize=16;fontColor=#080808;" vertex="1" parent="1">
+          <mxGeometry x="400" y="220" width="226" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="2210kzHJu_cHsQQhHqk_-19" value="" style="endArrow=none;dashed=1;html=1;strokeColor=#080808;fontSize=16;fontColor=#080808;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="210" y="449" as="sourcePoint"/>
+            <mxPoint x="390" y="370" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
