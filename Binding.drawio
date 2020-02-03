@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-02-03T04:29:16.826Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="M6RxRdcyC7t3JEPK7ziy" version="12.6.4" type="github">
+<mxfile host="www.draw.io" modified="2020-02-03T04:35:24.540Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="wDo7H-8KFERLglvHxhHD" version="12.6.4" type="github">
   <diagram id="CQ3KaExliSfZ6187Da4M" name="Page-1">
     <mxGraphModel dx="1422" dy="745" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -8,54 +8,57 @@
           <mxGeometry x="454" y="10" width="260" height="80" as="geometry"/>
         </mxCell>
         <mxCell id="skK5ssZXJBMdEnIlcwYf-6" value="&lt;font style=&quot;font-size: 16px&quot;&gt;Alice&#39;s&amp;nbsp;&lt;b style=&quot;font-size: 16px&quot;&gt;&lt;font color=&quot;#7ea6e0&quot; style=&quot;font-size: 16px&quot;&gt;Public &lt;/font&gt;&lt;/b&gt;Key&lt;br style=&quot;font-size: 16px&quot;&gt;&lt;br style=&quot;font-size: 16px&quot;&gt;Name: Alice&lt;br style=&quot;font-size: 16px&quot;&gt;Exp: 2026&lt;br style=&quot;font-size: 16px&quot;&gt;Issuer: Verisign&lt;br style=&quot;font-size: 16px&quot;&gt;&lt;br style=&quot;font-size: 16px&quot;&gt;&lt;u style=&quot;font-size: 16px&quot;&gt;Signature &lt;/u&gt;by Verisign&lt;/font&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=16;verticalAlign=bottom;" parent="1" vertex="1">
-          <mxGeometry x="520" y="503" width="160" height="160" as="geometry"/>
+          <mxGeometry x="520" y="620" width="160" height="160" as="geometry"/>
         </mxCell>
         <mxCell id="skK5ssZXJBMdEnIlcwYf-9" value="Certificate Authority" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="525" y="483" width="150" height="20" as="geometry"/>
+          <mxGeometry x="525" y="600" width="150" height="20" as="geometry"/>
         </mxCell>
         <mxCell id="CNy7opXp-pg9T9ThWLyz-16" value="Bob" style="shape=umlActor;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;html=1;outlineConnect=0;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="220" y="163" width="30" height="60" as="geometry"/>
+          <mxGeometry x="220" y="280" width="30" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="CNy7opXp-pg9T9ThWLyz-17" value="{M}&lt;sub&gt;Alice&lt;/sub&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="540" y="163" width="120" height="60" as="geometry"/>
+          <mxGeometry x="540" y="280" width="120" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="CNy7opXp-pg9T9ThWLyz-18" value="Alice" style="shape=umlActor;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;html=1;outlineConnect=0;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="950" y="163" width="30" height="60" as="geometry"/>
+          <mxGeometry x="950" y="280" width="30" height="60" as="geometry"/>
         </mxCell>
-        <mxCell id="CNy7opXp-pg9T9ThWLyz-21" value="" style="endArrow=classic;html=1;fontSize=16;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="CNy7opXp-pg9T9ThWLyz-16" target="CNy7opXp-pg9T9ThWLyz-17">
+        <mxCell id="CNy7opXp-pg9T9ThWLyz-21" value="" style="endArrow=classic;html=1;fontSize=16;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#fff2cc;strokeColor=#00CC00;" edge="1" parent="1" source="CNy7opXp-pg9T9ThWLyz-16" target="CNy7opXp-pg9T9ThWLyz-17">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="370" y="733" as="sourcePoint"/>
-            <mxPoint x="420" y="683" as="targetPoint"/>
+            <mxPoint x="370" y="850" as="sourcePoint"/>
+            <mxPoint x="420" y="800" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
         <mxCell id="CNy7opXp-pg9T9ThWLyz-22" value="" style="endArrow=classic;html=1;fontSize=16;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="CNy7opXp-pg9T9ThWLyz-17" target="CNy7opXp-pg9T9ThWLyz-18">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="670" y="213" as="sourcePoint"/>
-            <mxPoint x="810" y="213" as="targetPoint"/>
+            <mxPoint x="670" y="330" as="sourcePoint"/>
+            <mxPoint x="810" y="330" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
         <mxCell id="CNy7opXp-pg9T9ThWLyz-23" value="" style="endArrow=classic;html=1;fontSize=16;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="skK5ssZXJBMdEnIlcwYf-6">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="240" y="253" as="sourcePoint"/>
-            <mxPoint x="420" y="683" as="targetPoint"/>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="CNy7opXp-pg9T9ThWLyz-24" value="" style="endArrow=classic;html=1;fontSize=16;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=-0.15;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="skK5ssZXJBMdEnIlcwYf-9" target="CNy7opXp-pg9T9ThWLyz-17">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="590" y="263" as="sourcePoint"/>
-            <mxPoint x="725" y="513" as="targetPoint"/>
+            <mxPoint x="240" y="370" as="sourcePoint"/>
+            <mxPoint x="420" y="800" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
         <mxCell id="CNy7opXp-pg9T9ThWLyz-26" value="If Bob trusts Verisign(Certificate Authority) he can retreive Alice&#39;s genuine Public Key" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];strokeColor=#000000;fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;container=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="68" y="520" width="302" height="20" as="geometry"/>
+          <mxGeometry x="68" y="637" width="302" height="20" as="geometry"/>
         </mxCell>
-        <mxCell id="CNy7opXp-pg9T9ThWLyz-27" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;fontSize=16;entryX=0;entryY=0.75;entryDx=0;entryDy=0;exitX=1;exitY=1;exitDx=0;exitDy=0;dashed=1;" edge="1" target="skK5ssZXJBMdEnIlcwYf-6" parent="1" source="CNy7opXp-pg9T9ThWLyz-26">
+        <mxCell id="CNy7opXp-pg9T9ThWLyz-27" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;fontSize=16;exitX=1;exitY=1;exitDx=0;exitDy=0;dashed=1;" edge="1" parent="1" source="CNy7opXp-pg9T9ThWLyz-26">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="450" y="600" as="sourcePoint"/>
+            <mxPoint x="450" y="717" as="sourcePoint"/>
+            <mxPoint x="460" y="567" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
         <mxCell id="CNy7opXp-pg9T9ThWLyz-28" value="&lt;h1 style=&quot;font-size: 25px&quot;&gt;&lt;font style=&quot;font-size: 25px&quot;&gt;Digital Certificate Goal:&lt;/font&gt;&lt;/h1&gt;&lt;div style=&quot;font-size: 23px&quot;&gt;&lt;ol&gt;&lt;li&gt;&lt;span&gt;Provide binding between a subject and their Public Key&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;Securely&amp;nbsp;distribute their genuine Public Key&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="750" y="473" width="370" height="220" as="geometry"/>
+          <mxGeometry x="750" y="590" width="370" height="220" as="geometry"/>
+        </mxCell>
+        <mxCell id="CNy7opXp-pg9T9ThWLyz-32" value="Bob doesn&#39;t know Alice&#39;s Public Key" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;container=1;recursiveResize=0;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="280" y="190" width="154" height="62" as="geometry"/>
+        </mxCell>
+        <mxCell id="CNy7opXp-pg9T9ThWLyz-33" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;fontSize=16;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;dashed=1;" edge="1" target="CNy7opXp-pg9T9ThWLyz-32" parent="1" source="CNy7opXp-pg9T9ThWLyz-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="290" y="250" as="sourcePoint"/>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
