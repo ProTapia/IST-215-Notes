@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-02-17T08:49:42.502Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="2K9VHklBQxbx78IJmURU" version="12.7.0" type="github">
+<mxfile host="www.draw.io" modified="2020-02-17T08:54:26.147Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="sZxHzC2PbqdpU1_2y3Lg" version="12.7.0" type="github">
   <diagram id="AUSyYx-8ehcyiPEunDD3" name="Page-1">
     <mxGraphModel dx="1422" dy="745" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -8,7 +8,7 @@
           <mxGeometry x="650" y="208" width="350" height="390" as="geometry"/>
         </mxCell>
         <mxCell id="37pzr9wZezaG76wjAJH7-2" value="&amp;nbsp; &amp;nbsp;Network Address: 172.2.0.0&lt;br&gt;&lt;br style=&quot;font-size: 16px&quot;&gt;Subnet Mask: 255.255.0.0" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="469" y="110" width="230" height="60" as="geometry"/>
+          <mxGeometry x="469" y="100" width="230" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="37pzr9wZezaG76wjAJH7-3" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00CC00;shape=mxgraph.azure.computer;pointerEvents=1;fontSize=16;direction=east;" parent="1" vertex="1">
           <mxGeometry x="737.5" y="400.5" width="50" height="45" as="geometry"/>
@@ -40,7 +40,7 @@
             <mxPoint x="845" y="378" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="37pzr9wZezaG76wjAJH7-10" value="&lt;span style=&quot;white-space: nowrap&quot;&gt;&lt;font color=&quot;#ff0000&quot;&gt;172.2.&lt;/font&gt;&lt;font color=&quot;#b266ff&quot;&gt;0.0&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/span&gt;&lt;br style=&quot;white-space: nowrap&quot;&gt;&lt;span style=&quot;color: rgb(255 , 0 , 0) ; white-space: nowrap&quot;&gt;172.2.&lt;/span&gt;&lt;span style=&quot;white-space: nowrap&quot;&gt;&lt;font color=&quot;#00cc00&quot;&gt;0.1&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/span&gt;&lt;br style=&quot;white-space: nowrap&quot;&gt;&lt;span style=&quot;color: rgb(255 , 0 , 0) ; white-space: nowrap&quot;&gt;172.2.&lt;/span&gt;&lt;span style=&quot;white-space: nowrap&quot;&gt;&lt;font color=&quot;#00cc00&quot;&gt;0.2&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/span&gt;&lt;br style=&quot;white-space: nowrap&quot;&gt;&lt;span style=&quot;color: rgb(255 , 0 , 0) ; white-space: nowrap&quot;&gt;172.2.&lt;/span&gt;&lt;span style=&quot;white-space: nowrap&quot;&gt;&lt;font color=&quot;#00cc00&quot;&gt;0.3&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/span&gt;&lt;br style=&quot;white-space: nowrap&quot;&gt;&lt;font color=&quot;#00cc00&quot;&gt;.&lt;br&gt;.&lt;/font&gt;&lt;br&gt;&lt;span style=&quot;color: rgb(255 , 0 , 0) ; white-space: nowrap&quot;&gt;172.2.&lt;/span&gt;&lt;span style=&quot;white-space: nowrap&quot;&gt;&lt;font color=&quot;#00cc00&quot;&gt;0.255&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/span&gt;&lt;br style=&quot;white-space: nowrap&quot;&gt;&lt;span style=&quot;color: rgb(255 , 0 , 0) ; white-space: nowrap&quot;&gt;172.2.&lt;/span&gt;&lt;span style=&quot;white-space: nowrap&quot;&gt;&lt;font color=&quot;#00cc00&quot;&gt;1&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;white-space: nowrap&quot;&gt;&lt;font color=&quot;#00cc00&quot;&gt;.0&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/span&gt;&lt;br style=&quot;white-space: nowrap&quot;&gt;&lt;span style=&quot;color: rgb(255 , 0 , 0) ; white-space: nowrap&quot;&gt;172.2.&lt;/span&gt;&lt;span style=&quot;white-space: nowrap&quot;&gt;&lt;font color=&quot;#00cc00&quot;&gt;1&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;white-space: nowrap&quot;&gt;&lt;font color=&quot;#00cc00&quot;&gt;.1&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/span&gt;&lt;font color=&quot;#00cc00&quot;&gt;&lt;br&gt;.&lt;br&gt;.&lt;br&gt;&lt;/font&gt;&lt;span style=&quot;color: rgb(255 , 0 , 0) ; white-space: nowrap&quot;&gt;172.2.&lt;/span&gt;&lt;span style=&quot;white-space: nowrap&quot;&gt;&lt;font color=&quot;#00cc00&quot;&gt;255&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;white-space: nowrap&quot;&gt;&lt;font color=&quot;#00cc00&quot;&gt;.254&lt;/font&gt;&lt;/span&gt;&lt;br style=&quot;white-space: nowrap&quot;&gt;&lt;span style=&quot;color: rgb(255 , 0 , 0) ; white-space: nowrap&quot;&gt;172.2.255&lt;/span&gt;&lt;span style=&quot;white-space: nowrap&quot;&gt;.255&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;fontSize=16;fontStyle=1" parent="1" vertex="1">
+        <mxCell id="37pzr9wZezaG76wjAJH7-10" value="&lt;span style=&quot;white-space: nowrap&quot;&gt;&lt;font color=&quot;#ff0000&quot;&gt;172.2.&lt;/font&gt;&lt;font color=&quot;#b266ff&quot;&gt;0.0&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/span&gt;&lt;br style=&quot;white-space: nowrap&quot;&gt;&lt;span style=&quot;color: rgb(255 , 0 , 0) ; white-space: nowrap&quot;&gt;172.2.&lt;/span&gt;&lt;span style=&quot;white-space: nowrap&quot;&gt;&lt;font color=&quot;#00cc00&quot;&gt;0.1&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/span&gt;&lt;br style=&quot;white-space: nowrap&quot;&gt;&lt;span style=&quot;color: rgb(255 , 0 , 0) ; white-space: nowrap&quot;&gt;172.2.&lt;/span&gt;&lt;span style=&quot;white-space: nowrap&quot;&gt;&lt;font color=&quot;#00cc00&quot;&gt;0.2&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/span&gt;&lt;br style=&quot;white-space: nowrap&quot;&gt;&lt;span style=&quot;color: rgb(255 , 0 , 0) ; white-space: nowrap&quot;&gt;172.2.&lt;/span&gt;&lt;span style=&quot;white-space: nowrap&quot;&gt;&lt;font color=&quot;#00cc00&quot;&gt;0.3&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/span&gt;&lt;br style=&quot;white-space: nowrap&quot;&gt;&lt;font color=&quot;#00cc00&quot;&gt;.&lt;br&gt;.&lt;/font&gt;&lt;br&gt;&lt;span style=&quot;color: rgb(255 , 0 , 0) ; white-space: nowrap&quot;&gt;172.2.&lt;/span&gt;&lt;span style=&quot;white-space: nowrap&quot;&gt;&lt;font color=&quot;#00cc00&quot;&gt;0.255&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/span&gt;&lt;br style=&quot;white-space: nowrap&quot;&gt;&lt;span style=&quot;color: rgb(255 , 0 , 0) ; white-space: nowrap&quot;&gt;172.2.&lt;/span&gt;&lt;span style=&quot;white-space: nowrap&quot;&gt;&lt;font color=&quot;#00cc00&quot;&gt;1&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;white-space: nowrap&quot;&gt;&lt;font color=&quot;#00cc00&quot;&gt;.0&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/span&gt;&lt;br style=&quot;white-space: nowrap&quot;&gt;&lt;span style=&quot;color: rgb(255 , 0 , 0) ; white-space: nowrap&quot;&gt;172.2.&lt;/span&gt;&lt;span style=&quot;white-space: nowrap&quot;&gt;&lt;font color=&quot;#00cc00&quot;&gt;1&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;white-space: nowrap&quot;&gt;&lt;font color=&quot;#00cc00&quot;&gt;.1&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/span&gt;&lt;font color=&quot;#00cc00&quot;&gt;&lt;br&gt;.&lt;br&gt;.&lt;br&gt;&lt;/font&gt;&lt;span style=&quot;color: rgb(255 , 0 , 0) ; white-space: nowrap&quot;&gt;172.2.&lt;/span&gt;&lt;span style=&quot;white-space: nowrap&quot;&gt;&lt;font color=&quot;#00cc00&quot;&gt;255&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;white-space: nowrap&quot;&gt;&lt;font color=&quot;#00cc00&quot;&gt;.254&lt;/font&gt;&lt;/span&gt;&lt;br style=&quot;white-space: nowrap&quot;&gt;&lt;span style=&quot;color: rgb(255 , 0 , 0) ; white-space: nowrap&quot;&gt;172.2.&lt;/span&gt;&lt;span style=&quot;white-space: nowrap&quot;&gt;255&lt;/span&gt;&lt;span style=&quot;white-space: nowrap&quot;&gt;.255&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;fontSize=16;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="410" y="280.5" width="120" height="249.5" as="geometry"/>
         </mxCell>
         <mxCell id="37pzr9wZezaG76wjAJH7-13" value="" style="endArrow=none;dashed=1;html=1;fontSize=16;strokeColor=#000000;" parent="1" edge="1">
@@ -122,16 +122,16 @@
         </mxCell>
         <mxCell id="37pzr9wZezaG76wjAJH7-31" value="" style="endArrow=none;dashed=1;html=1;strokeColor=#000000;strokeWidth=1;fontSize=16;fontColor=#000000;entryX=0.271;entryY=1.033;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="37pzr9wZezaG76wjAJH7-2" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="490" y="220" as="sourcePoint"/>
+            <mxPoint x="460" y="210" as="sourcePoint"/>
             <mxPoint x="554" y="170" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="37pzr9wZezaG76wjAJH7-32" value="Subnet mask tells what portion is for the network and what portion is for the host" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];strokeColor=#000000;fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;container=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;fontSize=16;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="60" y="179" width="289" height="20" as="geometry"/>
+        <mxCell id="37pzr9wZezaG76wjAJH7-32" value="2 octets for the network and 2 octets for the host" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];strokeColor=#000000;fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;container=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;fontSize=16;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="160" y="150" width="200" height="20" as="geometry"/>
         </mxCell>
         <mxCell id="37pzr9wZezaG76wjAJH7-33" value="" style="startArrow=none;endArrow=none;segment=10;strokeColor=#000000;strokeWidth=1;fontSize=30;fontColor=#000000;dashed=1;" parent="1" target="37pzr9wZezaG76wjAJH7-32" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="480" y="160" as="sourcePoint"/>
+            <mxPoint x="490" y="150" as="sourcePoint"/>
           </mxGeometry>
         </mxCell>
         <mxCell id="37pzr9wZezaG76wjAJH7-35" value="Represents the LAN" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];strokeColor=#000000;fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;container=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;fontSize=16;fontColor=#000000;" parent="1" vertex="1">
@@ -139,7 +139,7 @@
         </mxCell>
         <mxCell id="37pzr9wZezaG76wjAJH7-36" value="" style="startArrow=none;endArrow=none;segment=10;strokeColor=#000000;strokeWidth=1;fontSize=30;fontColor=#000000;dashed=1;" parent="1" target="37pzr9wZezaG76wjAJH7-35" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="280" y="298" as="sourcePoint"/>
+            <mxPoint x="280" y="290" as="sourcePoint"/>
           </mxGeometry>
         </mxCell>
         <mxCell id="37pzr9wZezaG76wjAJH7-37" value="Reserved for the end devices" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];strokeColor=#000000;fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;container=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;fontSize=16;fontColor=#000000;" parent="1" vertex="1">
@@ -150,12 +150,13 @@
             <mxPoint x="430" y="440" as="sourcePoint"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="37pzr9wZezaG76wjAJH7-39" value="Reserved for broadcasting. Can broadcast all the end devices in a network." style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];strokeColor=#000000;fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;container=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;fontSize=16;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="10" y="570" width="210" height="20" as="geometry"/>
+        <mxCell id="37pzr9wZezaG76wjAJH7-39" value="Reserved for broadcasting. Any end device can use this IP to broadcast to every other end device in the network" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];strokeColor=#000000;fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;container=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;fontSize=16;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="24" y="660" width="296" height="20" as="geometry"/>
         </mxCell>
-        <mxCell id="37pzr9wZezaG76wjAJH7-40" value="" style="startArrow=none;endArrow=none;segment=10;strokeColor=#000000;strokeWidth=1;fontSize=30;fontColor=#000000;dashed=1;exitX=0.04;exitY=0.95;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="37pzr9wZezaG76wjAJH7-20" target="37pzr9wZezaG76wjAJH7-39" edge="1">
+        <mxCell id="37pzr9wZezaG76wjAJH7-40" value="" style="startArrow=none;endArrow=none;segment=10;strokeColor=#000000;strokeWidth=1;fontSize=30;fontColor=#000000;dashed=1;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="470" y="620" as="sourcePoint"/>
+            <mxPoint x="266" y="520" as="sourcePoint"/>
+            <mxPoint x="172" y="620" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
       </root>
