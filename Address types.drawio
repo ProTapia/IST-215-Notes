@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-02-17T07:57:31.607Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="6VCuwoVW9w_mrbrG6HYx" version="12.7.0" type="github">
+<mxfile host="www.draw.io" modified="2020-02-17T08:01:43.316Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="kRHMh19sy6-SbtoNviVP" version="12.7.0" type="github">
   <diagram id="AUSyYx-8ehcyiPEunDD3" name="Page-1">
     <mxGraphModel dx="1422" dy="745" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -112,8 +112,8 @@
         <mxCell id="37pzr9wZezaG76wjAJH7-28" value="IP Address Types" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=30;fontColor=#000000;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="454" y="20" width="260" height="40" as="geometry"/>
         </mxCell>
-        <mxCell id="37pzr9wZezaG76wjAJH7-29" value="Network" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];strokeColor=#000000;fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;container=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;fontSize=16;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="1015" y="199" width="90" height="20" as="geometry"/>
+        <mxCell id="37pzr9wZezaG76wjAJH7-29" value="Local Area Network" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];strokeColor=#000000;fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;container=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;fontSize=16;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="975" y="208" width="170" height="20" as="geometry"/>
         </mxCell>
         <mxCell id="37pzr9wZezaG76wjAJH7-30" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;strokeColor=#000000;strokeWidth=1;fontSize=30;fontColor=#000000;dashed=1;exitX=0.25;exitY=0.25;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" target="37pzr9wZezaG76wjAJH7-29" parent="1" source="37pzr9wZezaG76wjAJH7-1">
           <mxGeometry relative="1" as="geometry">
@@ -132,6 +132,30 @@
         <mxCell id="37pzr9wZezaG76wjAJH7-33" value="" style="startArrow=none;endArrow=none;segment=10;strokeColor=#000000;strokeWidth=1;fontSize=30;fontColor=#000000;dashed=1;" edge="1" parent="1" target="37pzr9wZezaG76wjAJH7-32">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="480" y="160" as="sourcePoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="37pzr9wZezaG76wjAJH7-35" value="Represents the LAN" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];strokeColor=#000000;fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;container=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;fontSize=16;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="10" y="305.5" width="180" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="37pzr9wZezaG76wjAJH7-36" value="" style="startArrow=none;endArrow=none;segment=10;strokeColor=#000000;strokeWidth=1;fontSize=30;fontColor=#000000;dashed=1;" edge="1" parent="1" target="37pzr9wZezaG76wjAJH7-35">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="298" as="sourcePoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="37pzr9wZezaG76wjAJH7-37" value="Reserved for the end devices" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];strokeColor=#000000;fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;container=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;fontSize=16;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="20" y="413" width="150" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="37pzr9wZezaG76wjAJH7-38" value="" style="startArrow=none;endArrow=none;segment=10;strokeColor=#000000;strokeWidth=1;fontSize=30;fontColor=#000000;dashed=1;exitX=0.014;exitY=0.725;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" target="37pzr9wZezaG76wjAJH7-37" source="37pzr9wZezaG76wjAJH7-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="430" y="440" as="sourcePoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="37pzr9wZezaG76wjAJH7-39" value="Reserved for broadcasting. Can broadcast all the end devices in a network." style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];strokeColor=#000000;fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;container=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;fontSize=16;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="20" y="620" width="210" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="37pzr9wZezaG76wjAJH7-40" value="" style="startArrow=none;endArrow=none;segment=10;strokeColor=#000000;strokeWidth=1;fontSize=30;fontColor=#000000;dashed=1;exitX=0.04;exitY=0.95;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" target="37pzr9wZezaG76wjAJH7-39" source="37pzr9wZezaG76wjAJH7-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="470" y="620" as="sourcePoint"/>
           </mxGeometry>
         </mxCell>
       </root>
